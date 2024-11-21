@@ -14,9 +14,17 @@
   }
 }
 
+html,
 body {
+  min-height: 100vh;
   color: var(--foreground);
-  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(to right,#000229,#000229ef, #000351e4, #000229f3);
+  background: #16425B;
+}
+
+/* Prevent white background during overscroll */
+html {
+  background-color: #16425B;
+  scroll-behavior: smooth;
+  scroll-padding-top: 64px;
 }

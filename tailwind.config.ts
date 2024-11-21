@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-blue': "#81C3D7",
+      },
+      fontFamily: {
+        'noto-serif': ['var(--font-noto-serif)'],
+        'noto-sans-jp': ['var(--font-noto-sans-jp)'],
       },
     },
   },
