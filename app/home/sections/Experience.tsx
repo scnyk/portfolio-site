@@ -3,6 +3,12 @@ import PanelComponent from "./Panel";
 export default function ExperienceSection () {
     
     let samsung_body = <>
+        <link
+        rel="apple-touch-icon"
+        href="/apple-icon?<generated>"
+        type="image/<generated>"
+        sizes="<generated>"
+        />
         <li>Developed a fullstack Python web application and managed deployment using Docker and Kubernetes</li>
         <li>Performed unit testing, end-to-end testing, and debugging</li>
         <li>Automated database storage device maintenance processes and reduced storage data pull times by 25%</li>

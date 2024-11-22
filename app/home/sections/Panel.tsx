@@ -1,4 +1,5 @@
 
+
 export default function PanelComponent ({textTitle,textBody,subtitle1,subtitle2,}:{
   textTitle:string,
   textBody:React.ReactNode,
@@ -14,7 +15,7 @@ export default function PanelComponent ({textTitle,textBody,subtitle1,subtitle2,
       subheader2= <h2>{subtitle2}</h2>
     }
     return (
-      <div className="group rounded-lg border border-neutral-600/0 hover:border-blue-500/25  ease-in duration-200 p-5
+      <div className="group rounded-lg border border-neutral-600/0 hover:border-blue-500/25 hover:bg-[#81C3D7]/15 hover:shadow-md  ease-in duration-200 p-5
       hover:translate-x-5
       ">
         <div className=" font-noto-serif pb-2">
