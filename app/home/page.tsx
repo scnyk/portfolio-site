@@ -5,7 +5,6 @@ import AboutSection from "./sections/About";
 import ExperienceSection from "./sections/Experience";
 import ProjectsSection from "./sections/projects/Projects";
 import HeaderComponent from "./Header";
-import TagComponent from "./Tag";
 
 
 export default function App() {

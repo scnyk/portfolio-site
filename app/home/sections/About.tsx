@@ -1,4 +1,3 @@
-import PanelComponent from "./Panel";
 
 export default function AboutSection({className}: {
     className: string,

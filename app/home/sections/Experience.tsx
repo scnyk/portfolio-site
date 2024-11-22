@@ -2,7 +2,7 @@ import PanelComponent from "./Panel";
 
 export default function ExperienceSection () {
     
-    let samsung_body = <>
+    const samsung_body = <>
         <link
         rel="apple-touch-icon"
         href="/apple-icon?<generated>"
@@ -14,7 +14,7 @@ export default function ExperienceSection () {
         <li>Automated database storage device maintenance processes and reduced storage data pull times by 25%</li>
     </>
 
-    let uopx_body = <>
+    const uopx_body = <>
         <li>Drove $10 million in revenue growth through an increase in prospective student conversions.</li>
         <li>Analyzed business data and optimized ad campaigns using SEO trends and market data.</li>
         <li>Built Python data models to predict customer conversion trends from historical data and statistics.</li>
@@ -30,13 +30,11 @@ export default function ExperienceSection () {
                 textTitle="Software Engineer Intern - Samsung" 
                 textBody={samsung_body}
                 subtitle1="2024"
-                subtitle2=""
             />
             <PanelComponent 
                 textTitle="Software Engineer Intern - University of Phoenix" 
                 textBody={uopx_body}
                 subtitle1="2023"
-                subtitle2=""
             />
             
             {/* <PanelComponent 

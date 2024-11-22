@@ -1,7 +1,7 @@
 import ProjectPanelComponent from "./ProjectPanel";
-import Image from 'next/image';
-import LearnLensImg from './images/LearnLensImg.png'
-import PortfolioSiteImg from './images/PortfolioSiteImg.png'
+// import Image from 'next/image';
+// import LearnLensImg from './images/LearnLensImg.png'
+// import PortfolioSiteImg from './images/PortfolioSiteImg.png'
 
 
 export default function ProjectsSection () {
@@ -21,7 +21,6 @@ export default function ProjectsSection () {
                 textTitle="Portfolio Website" 
                 textBody="Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit a vero praesentium velit aspernatur earum consequuntur dolores nihil voluptate id sit possimus, ipsa repellendus? Aspernatur pariatur excepturi similique quis perferendis."
                 subtitle1="2024"
-                subtitle2=""
                 />
             </div>
             <div className="flex flex-row gap-5"> 
@@ -36,7 +35,6 @@ export default function ProjectsSection () {
                 textTitle="LearnLens" 
                 textBody="Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit a vero praesentium velit aspernatur earum consequuntur dolores nihil voluptate id sit possimus, ipsa repellendus? Aspernatur pariatur excepturi similique quis perferendis."
                 subtitle1="2024"
-                subtitle2=""
                 />
             </div>
             
